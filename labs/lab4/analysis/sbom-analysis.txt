@@ -1,0 +1,6 @@
+=== SBOM Component Analysis ===
+      1 binary
+     10 deb
+   1128 npm
+     10 bkimminich/juice-shop:v19.0.0 (debian 12.11) - null
+   1125 Node.js - null
