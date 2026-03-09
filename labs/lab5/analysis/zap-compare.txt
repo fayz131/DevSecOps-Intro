@@ -1,0 +1,6 @@
+=== ZAP Scan Comparison ===
+Unauthenticated discovered URLs: 16
+Authenticated discovered URLs: 24
+
+Example admin/authenticated endpoints:
+http://localhost:3000/rest/admin/application-configuration
