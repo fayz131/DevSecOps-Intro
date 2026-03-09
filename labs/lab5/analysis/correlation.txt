@@ -1,0 +1,21 @@
+=== SAST/DAST Correlation Report ===
+
+Security Testing Results Summary:
+
+SAST (Semgrep): 25 code-level findings
+DAST (ZAP authenticated): 8 alerts
+DAST (Nuclei): 0 template matches
+DAST (Nikto): 82 server issues
+DAST (SQLmap): 0 CSV-recorded findings
+
+Key Insights:
+
+SAST (Static Analysis):
+  - Finds code-level vulnerabilities before deployment
+  - Detects: insecure coding patterns, hardcoded values, injection patterns
+
+DAST (Dynamic Analysis):
+  - Finds runtime and deployment issues
+  - Detects: auth/session issues, headers, exposed endpoints, runtime SQLi
+
+Recommendation: Use BOTH approaches for comprehensive security coverage
